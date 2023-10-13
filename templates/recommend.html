@@ -27,26 +27,29 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-white" style="font-size: 50px;">Top 50 Books</h1>
+                <h1 class="text-white" style="font-size: 50px;">Recommend Books</h1>
+                <form>
+                    <input type="text" class="form-control"><br>
+                    <input type="submit" class="btn btn-lg btn-warning">
+                </form>
             </div>
         </div>
 
-        {% for i in range(book_names|length) %}
-            <div class="col-md-3" style="margin-top: 50px;">
-                <div class="card">
-                    <div class="card-body">
-                        <!--The height and width are selected here for display
-                        based on the general aspect ratio of hard-cover published books-->
-                        <img class="card-img" height="150" width="100"
-                            src="{{images[i]}}">
-                        <p class="text-white" style="margin-top: 30px;">{{book_names[i]}}</p>
-                        <p class="text-white">Author: {{authors[i]}}</p>
-                        <p class="text-white">Votes: {{votes[i]}}</p>
-                        <p class="text-white">Rating: {{ratings[i]}}</p>
-                    </div>
+
+        <div class="col-md-3" style="margin-top: 50px;">
+            <div class="card">
+                <div class="card-body">
+                    <!--The height and width are selected here for display
+                    based on the general aspect ratio of hard-cover published books-->
+                    <img class="card-img" height="300" width="200"
+                        src="https://m.media-amazon.com/images/I/51Pj2N72-yL.jpg">
+                    <p style="margin-top: 30px;">
+                    <h3 class="text-white">Bhagvad Gita</h3>
+                    </p>
+                    <p class="text-white"><h4 class="text-white">Lord Krishna   </h4></p>
                 </div>
             </div>
-        {% endfor %}
+        </div>
 
     </div>
 </body>
