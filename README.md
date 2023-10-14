@@ -3,8 +3,20 @@
 Welcome to the repository of Book Recommender System project.
 
 Tech Stack Used:
-Python, HTML, CSS, Bootstrap, Flask and Heroku for Deployment.
+Python, HTML, Bootstrap, Flask.
 
-Layout:
+To run the app, please use following command:
+```
+python app.py
+```
+## Layout for Home Page:
 
-<img src="webpage.png">
+<img src="assets/home.png">
+
+## Layout for Recommender Page:
+
+<image src = "assets/recommend.png">
+
+
+## Next Steps:
+1. Find a free tier host for deployment.
