@@ -16,7 +16,3 @@ python app.py
 ## Layout for Recommender Page:
 
 <image src = "assets/recommend.png">
-
-
-## Next Steps:
-1. Find a free tier host for deployment.
